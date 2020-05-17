@@ -1,0 +1,23 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	border: none;
+}
+.header{
+	background-color: #424242;
+	justify-content: center;
+	height: 50px;
+	display: flex;
+	align-items: center;
+	font-family: 'Lato', sans-serif;
+}
+.header .covid-19{
+	color: #FFAD43;
+}
+.header p{
+	color: #ECECEC;
+}
+.header a{
+	color: #ECECEC;
+	margin-left: 3px;
+}

@@ -99,3 +99,21 @@ video {
 .content h3:hover{
 	background-color: #E81035;
 }
+.select{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 73px;
+}
+.select span{
+	padding: 8px 15px;
+	border: 1px solid #C5C4C4;
+	border-radius: 10px;
+	margin: 0px 20px;
+	background-color: #F6F7F8;
+	color: #757575;
+
+} 
+.select span:hover{
+	border-color: #A2A2A2;
+}

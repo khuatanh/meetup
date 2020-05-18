@@ -104,6 +104,7 @@ video {
 	justify-content: center;
 	align-items: center;
 	height: 73px;
+	border-bottom: 1px solid #E6E8E8;
 }
 .select span{
 	padding: 8px 15px;

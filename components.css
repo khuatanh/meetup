@@ -110,11 +110,413 @@ video {
 	padding: 8px 15px;
 	border: 1px solid #C5C4C4;
 	border-radius: 10px;
-	margin: 0px 20px;
+	margin: 0px 10px;
 	background-color: #F6F7F8;
 	color: #757575;
 
 } 
 .select span:hover{
 	border-color: #A2A2A2;
+}
+.news{
+	margin:auto;
+	padding: 40px 0px 0px;
+	width: 1050px;
+	/*height: 2149px;*/
+	/*display: flex;*/
+
+}
+.sub-header p{
+	font-size: 16px;
+	font-family: 'Lato', sans-serif;
+}
+.extention a{
+	text-decoration: none;
+	display: flex;
+	justify-content: flex-end;
+	color: #00A2C7;
+	font-family: 'Lato', sans-serif;
+}
+/*.sub-news{
+	width: 300px;
+	height: 258px;
+	background-color: #FFFFFF;
+	text-decoration: none;
+	margin-top: 28px;
+	border: 1px solid #F5F6F7;
+	border-radius: 10px;
+	box-shadow: 1px #EEE;
+	padding: 20px;
+	color: black;
+	display: flex;
+}*/
+.sub a{
+	text-decoration: none;
+	color: black;
+}
+.sub-main{
+	width: 315px;
+	height: 230px;
+	margin-top: 30px;
+	padding: 15px 10px;
+	border: 1px solid #F5F6F7;
+	border-radius: 10px;
+
+}
+.sub-main .day{
+	color: #0098AB;
+}
+.sub-main h2{
+	margin-top: 10px;
+	line-height: 1.3;
+	color: #100e0edb
+}
+.sub-main p{
+	margin: 10px 0px; 
+	font-family: 'Lato', sans-serif;
+}
+.sub-main i{
+	opacity: 0.5;
+}
+.sub-main .description{
+	font-family: 'Lato', sans-serif;
+	font-size: 13px;
+}
+ .sub-main .subcriber{
+ 	margin-top: 50px;
+ }
+ .subcriber .participer{
+ 	margin-left: 120px;
+ 	padding: 8px 10px;
+ 	border: 1px solid #00A0C3;
+    border-radius: 5px; 
+    color: #00A0C3;
+ }
+.subcriber .participer:hover{
+	background-color: #00A0C3;
+	color: white;
+}
+.subcriber .member{
+	color: #AAA;
+}
+.sub{
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 50px;
+}
+.sub-main{
+	box-shadow: 2px 0px 0px 0px #EEE;
+}
+.sub-news:hover{
+	transform: translate( 0px, -1px);
+}
+.sub-main1{
+	width: 250px;
+	height: 326px;
+	border: 1px solid #F5F6F7;
+	border-radius: 10px;
+	margin-top: 20px;
+	
+}
+.sub-main1 .background{
+	width: 250px;
+	height: 160px;
+	border: 1px solid #F5F6F7;
+	border-radius: 10px 10px 0px 0px;
+
+	background-image: url("./nen.jpeg");
+	background-size: cover;
+	background-position-x: 50%;
+    background-position-y: center;
+    margin-bottom: 15px;
+}
+.sub-main1 span{
+	text-transform: uppercase;
+	color: #484646;
+	padding: 20px;
+}
+.sub-main1 h2{
+	padding: 10px 20px;
+	text-transform: capitalize;
+	color: black;
+}
+.sub-main1 p{
+	padding: 25px 20px 0px;
+	color: #a09e9e;
+}
+.sub1{
+	display: flex;
+	justify-content: space-around;
+	font-family: 'Lato', sans-serif;
+	margin-bottom: 50px;
+}
+.sub1-main{
+	text-decoration: none;
+}
+.sub1-main:hover{
+	transform: translate( 0px, -1px);
+}
+/* thems*/
+.sub-header3{
+	font-family: 'Lato', sans-serif;
+	line-height: 25px;
+}
+.sub-main2{
+	width: 253px;
+	height: 208px;
+	
+}
+.sub-main2 .background{
+	width: 253px;
+	height: 160px;
+	background-image: url("./thems1.jpeg");
+	background-size: cover;
+	background-position: 50% 50%;
+}
+.sub2 .sub2-main{
+	text-decoration: none;
+	color: #212121;
+	font-family: 'Lato', sans-serif;
+	font-size: 17px;
+}
+.sub-main2 .background{
+	border: 1px solid #F5F6F7;
+	border-radius: 10px;
+
+}
+.sub-main2{
+	margin-top: 20px;
+}
+.sub2-main h4{
+	margin-top: -35px;
+}
+.sub2 {
+	display: flex;
+	justify-content: space-around;
+}
+.sub3{
+	display: flex;
+	justify-content: space-around;
+}
+.sub3 .sub2-main{
+	text-decoration: none;
+	color: black;
+	font-family: 'Lato', sans-serif;
+	font-size: 17px;
+}
+.sub-main2 .background1{
+	width: 253px;
+	height: 160px;
+	background-image: url("https://secure.meetupstatic.com/photos/event/2/e/a/d/600_450131949.jpeg");
+	background-size: cover;
+	background-position: 50% 50%;
+	border: 1px solid #F5F6F7;
+	border-radius: 10px;
+}
+.sub-main2 .background2{
+	width: 253px;
+	height: 160px;
+	background-image: url("https://secure.meetupstatic.com/photos/event/2/e/9/c/600_450131932.jpeg");
+	background-size: cover;
+	background-position: 50% 50%;
+	border: 1px solid #F5F6F7;
+	border-radius: 10px;
+}
+.sub-main2 .background3{
+	width: 253px;
+	height: 160px;
+	background-image: url("https://secure.meetupstatic.com/photos/event/2/e/a/e/600_450131950.jpeg");
+	background-size: cover;
+	background-position: 50% 50%;
+	border: 1px solid #F5F6F7;
+	border-radius: 10px;
+}
+.sub-main2 .background4{
+	width: 253px;
+	height: 160px;
+	background-image: url("https://secure.meetupstatic.com/photos/event/2/e/a/c/600_450131948.jpeg");
+	background-size: cover;
+	background-position: 50% 50%;
+	border: 1px solid #F5F6F7;
+	border-radius: 10px;
+}
+.sub-main2 .background5{
+	width: 253px;
+	height: 160px;
+	background-image: url("https://secure.meetupstatic.com/photos/event/2/e/9/b/600_450131931.jpeg");
+	background-size: cover;
+	background-position: 50% 50%;
+	border: 1px solid #F5F6F7;
+	border-radius: 10px;
+}
+.sub-main2 .background6{
+	width: 253px;
+	height: 160px;
+	background-image: url("https://secure.meetupstatic.com/photos/event/2/e/a/a/600_450131946.jpeg");
+	background-size: cover;
+	background-position: 50% 50%;
+	border: 1px solid #F5F6F7;
+	border-radius: 10px;
+}
+.sub-main2 .background7{
+	width: 253px;
+	height: 160px;
+	background-image: url("https://secure.meetupstatic.com/photos/event/2/e/a/1/600_450131937.jpeg");
+	background-size: cover;
+	background-position: 50% 50%;
+	border: 1px solid #F5F6F7;
+	border-radius: 10px;
+}
+.sub-main2 .background8{
+	width: 253px;
+	height: 160px;
+	background-image: url("https://secure.meetupstatic.com/photos/event/2/e/a/f/600_450131951.jpeg");
+	background-size: cover;
+	background-position: 50% 50%;
+	border: 1px solid #F5F6F7;
+	border-radius: 10px;
+}
+.sub-main2 .background9{
+	width: 253px;
+	height: 160px;
+	background-image: url("https://secure.meetupstatic.com/photos/event/2/e/a/3/600_450131939.jpeg");
+	background-size: cover;
+	background-position: 50% 50%;
+	border: 1px solid #F5F6F7;
+	border-radius: 10px;
+}
+.sub-main2 .background10{
+	width: 253px;
+	height: 160px;
+	background-image:url("https://secure.meetupstatic.com/photos/event/2/e/a/6/600_450131942.jpeg");
+	background-size: cover;
+	background-position: 50% 50%;
+	border: 1px solid #F5F6F7;
+	border-radius: 10px;
+}
+.sub-main2 .background11{
+	width: 253px;
+	height: 160px;
+	background-image:url("https://secure.meetupstatic.com/photos/event/2/e/a/5/600_450131941.jpeg");
+	background-size: cover;
+	background-position: 30% 30%;
+	border: 1px solid #F5F6F7;
+	border-radius: 10px;
+}
+.sub-main2 .background12{
+	width: 253px;
+	height: 160px;
+	background-image:url("https://secure.meetupstatic.com/photos/event/2/e/a/4/600_450131940.jpeg");
+	background-size: cover;
+	background-position: 30% 30%;
+	border: 1px solid #F5F6F7;
+	border-radius: 10px;
+}
+.sub-main2 .background13{
+	width: 253px;
+	height: 160px;
+	background-image:url("https://secure.meetupstatic.com/photos/event/4/8/3/f/600_450858495.jpeg");
+	background-size: cover;
+	background-position: 30% 30%;
+	border: 1px solid #F5F6F7;
+	border-radius: 10px;
+}
+.sub-main2 .background14{
+	width: 253px;
+	height: 160px;
+	background-image:url("https://secure.meetupstatic.com/photos/event/2/e/a/2/600_450131938.jpeg");
+	background-size: cover;
+	background-position: 30% 30%;
+	border: 1px solid #F5F6F7;
+	border-radius: 10px;
+}
+.sub-main2 .background15{
+	width: 253px;
+	height: 160px;
+	background-image:url("https://secure.meetupstatic.com/photos/event/2/e/9/5/600_450131925.jpeg");
+	background-size: cover;
+	background-position: 30% 30%;
+	border: 1px solid #F5F6F7;
+	border-radius: 10px;
+}
+.sub-main2 .background16{
+	width: 253px;
+	height: 160px;
+	background-image:url("https://secure.meetupstatic.com/photos/event/2/e/8/8/600_450131912.jpeg");
+	background-size: cover;
+	background-position: 30% 30%;
+	border: 1px solid #F5F6F7;
+	border-radius: 10px;
+}
+.sub-main2 .background17{
+	width: 253px;
+	height: 160px;
+	background-image:url("https://secure.meetupstatic.com/photos/event/2/e/9/7/600_450131927.jpeg");
+	background-size: cover;
+	background-position: 30% 30%;
+	border: 1px solid #F5F6F7;
+	border-radius: 10px;
+}
+.sub-main2 .background18{
+	width: 253px;
+	height: 160px;
+	background-image:url("https://secure.meetupstatic.com/photos/event/2/e/9/6/600_450131926.jpeg");
+	background-size: cover;
+	background-position: 30% 30%;
+	border: 1px solid #F5F6F7;
+	border-radius: 10px;
+}
+.sub-main2 .background19{
+	width: 253px;
+	height: 160px;
+	background-image:url("https://secure.meetupstatic.com/photos/event/2/e/9/a/600_450131930.jpeg");
+	background-size: cover;
+	background-position: 30% 30%;
+	border: 1px solid #F5F6F7;
+	border-radius: 10px;
+}
+.sub-main2 .background20{
+	width: 253px;
+	height: 160px;
+	background-image:url("https://secure.meetupstatic.com/photos/event/2/e/a/9/600_450131945.jpeg");
+	background-size: cover;
+	background-position: 30% 30%;
+	border: 1px solid #F5F6F7;
+	border-radius: 10px;
+}
+.sub-main2 .background21{
+	width: 253px;
+	height: 160px;
+	background-image:url("https://secure.meetupstatic.com/photos/event/2/e/9/9/600_450131929.jpeg");
+	background-size: cover;
+	background-position: 30% 30%;
+	border: 1px solid #F5F6F7;
+	border-radius: 10px;
+}
+.sub-main2 .background22{
+	width: 253px;
+	height: 160px;
+	background-image:url("https://secure.meetupstatic.com/photos/event/2/e/9/e/600_450131934.jpeg");
+	background-size: cover;
+	background-position: 30% 30%;
+	border: 1px solid #F5F6F7;
+	border-radius: 10px;
+}
+.sub-main2 .background23{
+	width: 253px;
+	height: 160px;
+	background-image:url("https://secure.meetupstatic.com/photos/event/2/e/a/b/600_450131947.jpeg");
+	background-size: cover;
+	background-position: 30% 30%;
+	border: 1px solid #F5F6F7;
+	border-radius: 10px;
+}
+.sub-main2 .background24{
+	width: 253px;
+	height: 160px;
+	background-image:url("https://secure.meetupstatic.com/photos/event/2/e/9/7/600_450131927.jpeg");
+	background-size: cover;
+	background-position: 30% 30%;
+	border: 1px solid #F5F6F7;
+	border-radius: 10px;
 }

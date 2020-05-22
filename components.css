@@ -520,3 +520,111 @@ video {
 	border: 1px solid #F5F6F7;
 	border-radius: 10px;
 }
+.how-to-use{
+	background-color: #0F1721;
+	width: 100%;
+	height: 368px;
+	color: white;
+	/*text-align: center;*/
+	margin-top: 50px;
+}
+.how-to-use h1{
+	padding-top: 50px;
+	text-align: center;
+}
+.how-to-use .cover{
+	width: 100%;
+	height: 368px;
+	display: flex;
+	justify-content: center;
+	margin-top: 30px;
+}
+.cover .content1{
+	margin-top: 20px;
+	padding-right: 100px;
+	margin-left: 30px;
+
+}
+.cover .content2{
+	margin-top: 20px;
+	padding-left: 30px;
+
+
+}
+.fa-plus{
+	margin-top: 20px;
+	font-size: 40px;
+	color: #00A2C7;
+}
+.fa-search{
+	margin-top: 20px;
+	font-size: 40px;
+	color: #00A2C7;
+}
+.content1 h2,p{
+	line-height: 30px;
+
+}
+.content1 h2{
+	font-size: 28px;
+	
+}
+.content2 h2{
+	font-size: 28px;
+}
+.content1 p{
+	margin-bottom: 15px;
+	font-size: 18px;
+}
+.content2 p{
+	margin-bottom: 15px;
+	font-size: 18px;
+}
+.content2 h2{
+	font-size: 28px;
+	
+}
+.content2 span{
+	color: #00A2C7;
+	font-size: 18px; 
+	font-family: 'Lato', sans-serif;
+}
+.content1 span{
+	color: #00A2C7;
+	font-size: 18px; 
+	font-family: 'Lato', sans-serif;
+}
+.advertising{
+	width: 100%;
+	height: 322px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
+	
+}
+.advertising .mobile{
+	width: 227px;
+	height: 299px;
+	margin-left: 250px;
+}
+.advertising img{
+	width: 160px;
+	height: 49px;
+	margin-top: 40px;
+}
+.img .apple{
+	margin-right: 25px;
+}
+.img{
+	padding-left: 10px;
+}
+.ad-content .span1{
+	line-height: 60px;
+	font-size: 35px;
+	font-family: 'Roboto', sans-serif;
+}
+.ad-content .span2{
+	font-family: 'Roboto', sans-serif;
+	color: #00A2C7;
+}

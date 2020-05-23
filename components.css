@@ -605,7 +605,7 @@ video {
 }
 .advertising .mobile{
 	width: 227px;
-	height: 299px;
+	height: 283px;
 	margin-left: 250px;
 }
 .advertising img{
@@ -628,3 +628,126 @@ video {
 	font-family: 'Roboto', sans-serif;
 	color: #00A2C7;
 }
+.footer{
+	background-color: #353E48;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin: auto;
+	height: 525px;
+
+}
+.header-of-footer{
+	width: 1060px;
+	height: 105px;
+	border-bottom: 1px solid #5D656D;
+	display: flex;
+	align-items: center;
+	color: #FFFFFF;
+	font-family: 'Roboto', sans-serif;
+	padding: 30px 0px;
+}
+.footer-content1{
+	width: 220px;
+	margin-left: 60px;
+	margin-top: 40px;
+	line-height: 50px;
+	color: #FFFFFF;
+	font-family: 'Roboto', sans-serif;
+}
+.footer-content1 span{
+	color: #BEBBB4;
+	font-size: 15px;
+	font-family: 'Roboto', sans-serif;
+}
+.footer-content2{
+	width: 220px;
+	margin-top: 40px;
+	line-height: 50px;
+	color: #FFFFFF;
+	font-family: 'Roboto', sans-serif;
+}
+.footer-content2 span{
+	color: #BEBBB4;
+	font-size: 15px;
+	font-family: 'Roboto', sans-serif;
+}
+.footer-content3{
+	width: 220px;
+	margin-top: 40px;
+	line-height: 50px;
+	color: #FFFFFF;
+	font-family: 'Roboto', sans-serif;
+}
+.footer-content3 span{
+	color: #BEBBB4;
+	font-size: 15px;
+	font-family: 'Roboto', sans-serif;
+}
+.footer-content{
+	display: flex;
+
+}
+.footer-content a{
+	text-decoration: none;
+}
+.contact {
+	width: 400px;
+	height: 528px;
+	margin-top: 40px;
+	padding-left: 55px;
+}
+.contact span{
+	color: white;
+	line-height: 50px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: bold;
+
+}
+.contact a{
+
+	color:  #BEBBB4;
+	align-items: center;
+	padding-right: 40px;
+	font-size: 23px;
+
+}
+.select-language{
+	width: 340px;
+	height: 67px;
+	margin-top: 40px;
+	padding: 0px 10px;
+	border: 1px solid #FFFFFF;
+	border-radius: 5px;
+	background-color: #0F1721;
+	color: #FFFFFF;
+	font-size: 16px;
+}
+.select-language:hover{
+	border: 1px solid #A2A2A2;
+
+}
+.select-language:active{
+	border: 1px solid #008898;
+}
+.contact img{
+	width: 160px;
+	height: 49px;
+	margin-top: 40px;
+	/*margin-right: 5px;*/
+}
+.store a{
+	
+	padding-right: 17px;
+}
+.store{
+	display: flex;
+	
+}
+/*.info li::after{
+	
+}*/
+/*.footer-content{
+	display: flex;
+	justify-content: space-around;
+}*/
